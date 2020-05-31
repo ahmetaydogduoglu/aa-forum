@@ -10,14 +10,13 @@ import Profile from "./screens/Profile"
 function App() {
   return (
     <Router>
+      <React.Fragment>
       <Switch>
-        <Route path="/" >
-          <Home />
-        </Route>
-        <Route path="/profile" >
-          <Profile />
-        </Route>
+        <Route path="/" render={Home} exact/>
+        <Route path="/profile" render={Profile} exact/>
       </Switch>
+      </React.Fragment>
+    
     </Router>
   );
 }
