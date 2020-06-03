@@ -9,12 +9,15 @@
 }
 
 .scroll-menu{
-    background-color: #333;
+    background-color: #A89AB4;
+
     overflow: auto;
     width: 100%;
     white-space: nowrap;
+    
 }
 .scroll-menu li {
+    
     display: inline-block;
   color: white;
   text-align: center;

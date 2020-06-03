@@ -1,0 +1,11 @@
+.card-container{
+    width: 35rem;
+    height: 15rem;
+    background-color: #EAE8EB;
+    border-radius: 15px;
+overflow: hidden;
+    margin: 10px 15px;
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
