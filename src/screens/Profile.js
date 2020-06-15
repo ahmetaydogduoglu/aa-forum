@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from "../components/Navbar"
-export default function Profile() {
+function Profile() {
     return (
         <div>
             <Navbar />
@@ -9,3 +9,5 @@ export default function Profile() {
         </div>
     )
 }
+
+export default Profile
